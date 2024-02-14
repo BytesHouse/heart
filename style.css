@@ -48,3 +48,13 @@ body {
     font-weight: 400;
     font-style: normal;
    }
+   .name2 {
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+    transform: translateX(-50%);
+    font-size: 1rem;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+   }

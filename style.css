@@ -37,3 +37,14 @@ body {
    #buttonPoke {
        pointer-events: none;
    }
+   .name {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    top: 10%;
+    transform: translateX(-50%);
+    font-size: 3rem;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+   }

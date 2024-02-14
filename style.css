@@ -1,0 +1,39 @@
+body {
+    background-color: #FFF;
+    overflow: hidden;
+    text-align:center;
+     align-items: center;
+     justify-content: center; 
+   }
+   
+   #container {
+   display: grid;
+     place-items: center;
+     grid-template-areas: "inner-div";
+    height: 100%;
+    width: 100%;}
+   
+   body,
+   html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+   }
+   #bgSVG {
+       grid-area: inner-div;
+       width: 100%;
+       height: 100%;
+   }
+   
+   #mainSVG {
+       grid-area: inner-div;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    
+   }
+   
+   #buttonPoke {
+       pointer-events: none;
+   }
